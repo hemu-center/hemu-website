@@ -85,7 +85,7 @@ footer{padding:36px 0;border-top:1px solid var(--line);font-size:14px;color:var(
 /* ---- 關於禾沐 ---- */
 .aboutGrid{display:grid;grid-template-columns:1fr 280px;gap:56px;align-items:center}
 .aboutLogo{width:100%;height:auto}
-.tagline{font-family:"Noto Serif TC","Songti TC",serif;letter-spacing:.3em;color:var(--muted);margin-bottom:.6em}
+.tagline{font-family:"Noto Serif TC","Songti TC",serif;letter-spacing:.3em;color:var(--muted);margin:-.2em 0 1.1em}
 .lead{font-size:17px;max-width:34em}
 .value{background:#fff;border:1px solid var(--line);border-radius:14px;padding:30px 26px;text-align:center}
 .value p{margin:0;color:var(--muted)}
