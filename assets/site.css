@@ -98,3 +98,4 @@ footer{padding:36px 0;border-top:1px solid var(--line);font-size:14px;color:var(
 .stepLink{display:table;margin-top:6px;font-weight:700;color:var(--olive);text-decoration:underline;text-underline-offset:3px}
 .stepLink:hover{text-decoration-thickness:2px}
 .steps .muted{display:block}
+.must{color:var(--olive);font-weight:700}
