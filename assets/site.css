@@ -1,5 +1,6 @@
 :root{--olive:#3F4D3F;--sage:#B7C3AE;--apricot:#DCCDBE;--taupe:#A89B8E;--warm:#F9F7F2;--ink:var(--olive);--ink2:var(--olive);--muted:#556153;--accent:var(--olive);--mist:#E5E7DE;--sand:#E9E0D5;--line:#D5DACD;--cream:var(--warm)}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{scroll-behavior:smooth;scroll-padding-top:84px}
 body{margin:0;color:var(--ink);background:var(--cream);font-family:"Montserrat","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.8;font-size:16px}
 h1,h2,h3{font-family:"Noto Serif TC","Songti TC",serif;font-weight:600;line-height:1.35;margin:0 0 .5em}

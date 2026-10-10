@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="assets/site.css?v=20261016">
+<link rel="stylesheet" href="assets/site.css?v=20261017">
 </head>
 <body>
 <nav>
@@ -41,7 +41,8 @@
 <section>
   <div class="wrap">
     <!-- 每位心理師一張卡片，點了會打開 team-英文.html 介紹頁。有照片時，把 <span class="initial" …>姓</span> 換成 <img src="assets/team/檔名.jpg" alt="姓名 諮商心理師"> -->
-    <div class="teamGrid">
+    <!-- 隱藏中：資料補齊後，刪掉下一行的 hidden 和下方「整理中」那段，再到 team-*.html 刪掉 noindex 那行 -->
+    <div class="teamGrid" hidden>
       <a class="memberCard" href="team-xu.html">
         <span class="ring"><span class="initial" aria-hidden="true">許</span></span>
         <h2>許家芬<span>／諮商心理師</span></h2>
@@ -61,6 +62,7 @@
         <span class="more">查看介紹 →</span>
       </a>
     </div>
+    <p class="teamEmpty">心理師介紹整理中，敬請期待。<br>想先了解或預約，歡迎<a href="https://forms.gle/jrzVBk8HazV8T82t5" target="_blank" rel="noopener">填寫預約表單</a>或透過 <a href="https://lin.ee/TF8IHHI" target="_blank" rel="noopener">LINE</a> 詢問。</p>
   </div>
 </section>
 
