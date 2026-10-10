@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@500;600;700&display=swap">
-<link rel="stylesheet" href="assets/site.css?v=20261012">
+<link rel="stylesheet" href="assets/site.css?v=20261013">
 </head>
 <body>
 <nav>
@@ -40,51 +40,27 @@
 
 <section>
   <div class="wrap">
-    <div class="team">
-<!--
-  ════════ 新增心理師：從這裡開始 ════════
-  1. 複製下面「範本」從 <article 到 </article> 的整段，貼到這個說明的下方。
-  2. 把「＿＿」換成實際內容；用不到的那一行可以整行刪掉。
-  3. 有照片：把照片上傳到 assets/team/ 資料夾，例如 assets/team/lin.jpg，
-     再把 src="assets/team/檔名.jpg" 改成你的檔名。
-     沒有照片：刪掉 <img ...> 那一行，改用這一行（會顯示姓氏）：
-        <div class="avatar" aria-hidden="true">林</div>
-  4. 想調整順序，就搬動整段 <article> … </article>。
-  ════════════════════════════════════
-
-  ↓↓↓ 範本（不要刪掉這個範本，複製它） ↓↓↓
-
-      <article class="person">
-        <img class="photo" src="assets/team/檔名.jpg" alt="＿＿心理師" width="180" height="225" loading="lazy">
-        <div>
-          <h2>＿＿＿ 心理師</h2>
-          <p class="role">諮商心理師</p>
-          <p class="license">諮心字第 ＿＿＿＿＿＿ 號</p>
-          <ul class="tags">
-            <li>焦慮壓力</li><li>自我探索</li><li>伴侶關係</li>
-          </ul>
-          <dl class="facts">
-            <dt>服務對象</dt><dd>成人、青少年</dd>
-            <dt>諮商方式</dt><dd>實體、線上</dd>
-          </dl>
-          <p>一段給個案看的介紹：你的陪伴風格、相信的事情，用 2～3 句話說明。</p>
-          <details>
-            <summary>學經歷</summary>
-            <ul>
-              <li>＿＿大學 諮商心理學系 碩士</li>
-              <li>＿＿機構 專任心理師</li>
-            </ul>
-          </details>
-        </div>
-      </article>
-
-  ↑↑↑ 範本結束 ↑↑↑
--->
-
-      <!-- ↓ 在這裡貼上心理師資料（可以貼很多段） ↓ -->
-
+    <!-- 每位心理師一張卡片，點了會打開 team-英文.html 介紹頁。有照片時，把 <span class="initial" …>姓</span> 換成 <img src="assets/team/檔名.jpg" alt="姓名 諮商心理師"> -->
+    <div class="teamGrid">
+      <a class="memberCard" href="team-xu.html">
+        <span class="ring"><span class="initial" aria-hidden="true">許</span></span>
+        <h2>許家芬<span>／諮商心理師</span></h2>
+        <p class="spec">專長領域待補／專長領域待補<br>專長領域待補</p>
+        <span class="more">查看介紹 →</span>
+      </a>
+      <a class="memberCard" href="team-fang.html">
+        <span class="ring"><span class="initial" aria-hidden="true">方</span></span>
+        <h2>方逸琳<span>／諮商心理師</span></h2>
+        <p class="spec">專長領域待補／專長領域待補<br>專長領域待補</p>
+        <span class="more">查看介紹 →</span>
+      </a>
+      <a class="memberCard" href="team-shen.html">
+        <span class="ring"><span class="initial" aria-hidden="true">沈</span></span>
+        <h2>沈宗毅<span>／諮商心理師</span></h2>
+        <p class="spec">專長領域待補／專長領域待補<br>專長領域待補</p>
+        <span class="more">查看介紹 →</span>
+      </a>
     </div>
-    <p class="teamEmpty">心理師介紹整理中，敬請期待。<br>想先了解或預約，歡迎<a href="https://forms.gle/jrzVBk8HazV8T82t5" target="_blank" rel="noopener">填寫預約表單</a>或透過 <a href="https://lin.ee/TF8IHHI" target="_blank" rel="noopener">LINE</a> 詢問。</p>
   </div>
 </section>
 
