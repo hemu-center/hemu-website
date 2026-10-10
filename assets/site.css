@@ -11,6 +11,7 @@ a{color:inherit}
 :focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
 .wrap{width:min(1080px,90%);margin:auto}
 .muted{color:var(--muted)}
+.nb{white-space:nowrap}
 .btn{display:inline-block;border-radius:999px;padding:13px 24px;font-weight:700;text-decoration:none;background:var(--ink);color:#fff;border:1.5px solid var(--ink)}
 .btn.soft{background:transparent;color:var(--ink);border-color:var(--accent)}
 .btn:hover{opacity:.88}
