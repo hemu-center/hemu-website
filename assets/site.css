@@ -60,6 +60,7 @@ dd{margin:0}
 .care{background:var(--sand);border-radius:14px;padding:24px 26px}
 .care p{margin:0 0 .4em}
 footer{padding:36px 0;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+footer a{text-decoration:none}
 @media(max-width:900px){.heroGrid{grid-template-columns:1fr}.heroLogo{display:none}.g4{grid-template-columns:repeat(2,1fr)}.contact{grid-template-columns:1fr}}
 @media(max-width:640px){.g4,.g3{grid-template-columns:1fr}section{padding:60px 0}.hero{padding:64px 0}}
 .copy{margin-left:8px;padding:2px 12px;border:1px solid var(--accent);border-radius:999px;background:#fff;color:var(--ink);font:inherit;font-size:13px;cursor:pointer}.copy:hover{background:var(--mist)}.copied{margin-left:8px;font-size:13px;color:var(--accent)}
