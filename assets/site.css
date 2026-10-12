@@ -16,7 +16,7 @@ a{color:inherit}
 .btn{display:inline-block;border-radius:999px;padding:13px 24px;font-weight:700;text-decoration:none;background:var(--ink);color:#fff;border:1.5px solid var(--ink)}
 .btn.soft{background:transparent;color:var(--ink);border-color:var(--accent)}
 .btn:hover{opacity:.88}
-nav{position:sticky;top:0;z-index:10;background:rgba(249,247,242,.94);border-bottom:1px solid var(--line)}
+nav{position:sticky;top:0;z-index:10;background:var(--warm);border-bottom:1px solid var(--line)}
 .navin{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:68px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:"Noto Serif TC","Songti TC",serif;font-weight:700;font-size:20px;letter-spacing:.1em}
 .brand img{width:40px;height:40px;flex:none}
