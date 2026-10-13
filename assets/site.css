@@ -131,3 +131,8 @@ footer a{text-decoration:none}
 .subLabel{font:600 15px "Noto Sans TC",sans-serif;color:var(--muted);margin:10px 0 2px;padding-left:22px}
 .profile .tags{margin:4px 0 0}
 .profile h1{margin-bottom:4px}
+.talks{max-width:none;margin:18px 0 0}
+.talks summary{font-size:15px}
+.talks .subLabel{padding-left:0}
+.talks .facts2{padding-left:1.2em;margin-bottom:6px;font-size:15px}
+@media(min-width:901px){.profile .ring{position:sticky;top:100px}}
