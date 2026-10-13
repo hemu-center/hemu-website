@@ -137,3 +137,4 @@ footer a{text-decoration:none}
 .talks .facts2{padding-left:1.2em;margin-bottom:6px;font-size:15px}
 @media(min-width:901px){.profile .ring{position:sticky;top:100px}}
 .paren{margin-left:-1em}
+.tagNote{margin:6px 0 0;padding-left:22px;font-size:14px;color:var(--muted)}
