@@ -136,3 +136,4 @@ footer a{text-decoration:none}
 .talks .subLabel{padding-left:0}
 .talks .facts2{padding-left:1.2em;margin-bottom:6px;font-size:15px}
 @media(min-width:901px){.profile .ring{position:sticky;top:100px}}
+.paren{margin-left:-.5em}
