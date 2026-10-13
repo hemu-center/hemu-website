@@ -200,3 +200,4 @@ footer a{text-decoration:none}
 .hero2Lead{margin:8px 0 22px;line-height:1.95}
 .hero2Photo{min-height:0;height:calc(100vh - 130px);max-height:680px}
 @media(max-width:900px){.hero2Grid{min-height:0;max-height:none}.hero2Logo{width:min(300px,72%)}.hero2Photo{height:380px}}
+@media(max-width:1360px){.heroDecoL{display:none}}
