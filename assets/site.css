@@ -203,3 +203,4 @@ footer a{text-decoration:none}
 .hero2Main{padding-top:24px}
 .hero2Logo{width:min(400px,80%,calc(100vh - 295px))}
 .hero2Main{align-self:start}
+@media(min-width:1501px){.hero2Main{padding-left:110px}}
