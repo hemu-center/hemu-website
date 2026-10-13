@@ -192,3 +192,9 @@ footer a{text-decoration:none}
 .newsPage{grid-template-columns:1fr;max-width:820px}
 @media(max-width:900px){.newsList{grid-template-columns:1fr}}
 .newsEmpty{grid-column:1/-1;background:#fff;border:1px dashed var(--taupe);border-radius:16px;padding:28px;text-align:center;color:var(--muted);margin:0}
+/* 首頁主視覺：縮小 logo 上下空白 */
+.hero2{padding-top:6px}
+.hero2Main{padding:0 0 24px}
+.hero2Lead{margin:4px 0 20px;line-height:1.9}
+.hero2Logo{width:min(400px,80%,calc(100vh - 255px))}
+@media(min-width:1101px) and (max-width:1500px){.hero2Main{padding-left:150px}.hero2Acts .pill{min-width:150px;padding:12px 22px}}
