@@ -129,7 +129,7 @@ footer a{text-decoration:none}
 @media(max-width:900px){.teamGrid{grid-template-columns:repeat(2,1fr)}.profile{grid-template-columns:1fr;gap:28px}.profile .ring{width:260px;margin:0 auto}}
 @media(max-width:560px){.teamGrid{grid-template-columns:1fr}.profile .ring .initial{font-size:80px}}
 .subLabel{font:600 15px "Noto Sans TC",sans-serif;color:var(--muted);margin:10px 0 2px;padding-left:22px}
-.profile .tags{margin:4px 0 0}
+.profile .tags{margin:4px 0 0;padding-left:22px}
 .profile h1{margin-bottom:4px}
 .talks{max-width:none;margin:18px 0 0}
 .talks summary{font-size:15px}
