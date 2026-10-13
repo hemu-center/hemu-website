@@ -177,3 +177,17 @@ footer a{text-decoration:none}
 @media(max-width:1100px){.heroDecoL{display:none}}
 @media(max-width:900px){.hero2Grid{grid-template-columns:1fr;min-height:0}.hero2Main{padding:24px 0 8px}.hero2Photo{min-height:380px;margin:0 -3%}.hero2Photo img{inset:0;width:100%;border-radius:120px 0 0 0}.heroDecoR,.script{display:none}.hero2Photo .blob{display:none}.svcGrid{grid-template-columns:repeat(2,1fr);row-gap:34px}.svcGrid article:nth-child(3){border-left:0}.svcFoot .tail{display:none}}
 @media(max-width:560px){.svcGrid{grid-template-columns:1fr}.svcGrid article{border-left:0}.hero2Lead{letter-spacing:.06em;font-size:14px}.svcFoot .line{max-width:40px}}
+/* ---- 最新消息 ---- */
+.newsSec{padding:56px 0 64px}
+.newsHead{max-width:none;display:flex;align-items:baseline;justify-content:space-between;gap:16px}
+.newsAll{font-size:15px;color:var(--accent);text-underline-offset:4px}
+.newsList{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.newsItem{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+.newsMeta{display:flex;align-items:center;gap:12px;margin:0 0 8px;font-size:14px;color:var(--muted)}
+.newsMeta time{font-family:"Cormorant Garamond","Montserrat",serif;letter-spacing:.1em;font-size:15px}
+.newsTag{background:var(--mist);border-radius:999px;padding:1px 12px;font-size:13px}
+.newsItem h3{font-size:19px;margin:0 0 8px}
+.newsItem p{color:var(--muted);font-size:15px;margin:0 0 10px}
+.newsMore{font-size:14px;color:var(--accent);text-underline-offset:4px}
+.newsPage{grid-template-columns:1fr;max-width:820px}
+@media(max-width:900px){.newsList{grid-template-columns:1fr}}
