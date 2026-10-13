@@ -138,3 +138,42 @@ footer a{text-decoration:none}
 @media(min-width:901px){.profile .ring{position:sticky;top:100px}}
 .paren{margin-left:-1em}
 .tagNote{margin:6px 0 0;padding-left:22px;font-size:14px;color:var(--muted)}
+/* ---- 首頁主視覺（新版） ---- */
+.visually{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.hero2{position:relative;overflow:hidden;background:radial-gradient(circle at 6% 30%,#EFEEE6 0 22%,transparent 22.2%),var(--warm);padding:28px 0 0}
+.hero2Grid{width:min(1240px,94%);margin:auto;display:grid;grid-template-columns:1fr 1.05fr;align-items:center;gap:24px;min-height:560px}
+.hero2Main{text-align:center;padding:24px 0 48px}
+.hero2Logo{width:min(400px,80%);height:auto}
+.hero2Lead{font-family:"Noto Serif TC","Songti TC",serif;letter-spacing:.14em;line-height:2.1;color:var(--muted);font-size:15px;margin:14px 0 30px}
+.hero2Acts{display:flex;justify-content:center;gap:18px;flex-wrap:wrap}
+.pill{display:inline-flex;align-items:center;gap:12px;min-width:190px;justify-content:center;padding:13px 30px;border-radius:999px;background:#7E8F74;color:#fff;border:1.5px solid #7E8F74;text-decoration:none;font-family:"Noto Serif TC",serif;letter-spacing:.2em;font-size:15px}
+.pill.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}
+.pill:hover{opacity:.88}
+.hero2Photo{position:relative;align-self:stretch;min-height:520px}
+.hero2Photo img{position:absolute;inset:0 0 0 8%;width:92%;height:100%;object-fit:cover;border-radius:46% 0 0 0 / 30% 0 0 0;}
+.hero2Photo .blob{position:absolute;left:0;bottom:-40px;width:180px;height:180px;border-radius:50%;background:#DCE2D3;opacity:.85;z-index:1}
+.heroDecoL{position:absolute;left:5%;top:72px;font-family:"Noto Serif TC",serif;color:var(--muted);z-index:2}
+.heroDecoL .en,.heroDecoR .en{font-family:"Cormorant Garamond",serif;letter-spacing:.32em;font-size:13px;line-height:2.2;margin:0}
+.heroDecoL .zh,.heroDecoR .zh{letter-spacing:.3em;font-size:14px;line-height:2.3;margin:0}
+.rule{display:block;width:38px;height:1px;background:currentColor;opacity:.6;margin:22px 0}
+.heroDecoR{position:absolute;right:4%;top:52px;text-align:right;color:var(--muted);font-family:"Noto Serif TC",serif;z-index:2}
+.heroDecoR .rule{margin:22px 0 22px auto}
+.heroDecoR .en{font-size:11px;line-height:2.4}
+.script{position:absolute;right:2%;bottom:24px;margin:0;font-family:Allura,cursive;font-size:44px;color:var(--ink);opacity:.75;transform:rotate(-12deg);z-index:2}
+.svc{padding:36px 0 30px;background:var(--warm)}
+.svcGrid{display:grid;grid-template-columns:repeat(4,1fr);text-align:center}
+.svcGrid article{padding:0 18px;border-left:1px solid var(--line)}
+.svcGrid article:first-child{border-left:0}
+.svcIcon{display:grid;place-items:center;width:72px;height:72px;border-radius:50%;margin:0 auto 12px}
+.svcIcon.sage{background:#D5DBCB}.svcIcon.peach{background:#EDD9CF}
+.svcIcon svg{width:38px;height:38px;fill:none;stroke:var(--olive);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.svcGrid h3{font-size:21px;letter-spacing:.14em;margin:0 0 10px}
+.svcGrid p{font-family:"Noto Serif TC",serif;color:var(--muted);font-size:14px;letter-spacing:.08em;line-height:2;margin:0}
+.svcFoot{display:flex;align-items:center;gap:22px;margin-top:30px;color:var(--muted)}
+.svcFoot .line{flex:1;max-width:130px;height:1px;background:var(--line)}
+.svcFoot .line:first-child{margin-left:auto}
+.svcFoot .motto{font-family:"Cormorant Garamond",serif;letter-spacing:.3em;font-size:12px}
+.svcFoot .tail{margin-left:auto;font-family:"Noto Serif TC",serif;letter-spacing:.2em;font-size:12px}
+@media(max-width:1100px){.heroDecoL{display:none}}
+@media(max-width:900px){.hero2Grid{grid-template-columns:1fr;min-height:0}.hero2Main{padding:24px 0 8px}.hero2Photo{min-height:380px;margin:0 -3%}.hero2Photo img{inset:0;width:100%;border-radius:120px 0 0 0}.heroDecoR,.script{display:none}.hero2Photo .blob{display:none}.svcGrid{grid-template-columns:repeat(2,1fr);row-gap:34px}.svcGrid article:nth-child(3){border-left:0}.svcFoot .tail{display:none}}
+@media(max-width:560px){.svcGrid{grid-template-columns:1fr}.svcGrid article{border-left:0}.hero2Lead{letter-spacing:.06em;font-size:14px}.svcFoot .line{max-width:40px}}
