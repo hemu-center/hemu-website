@@ -204,3 +204,9 @@ footer a{text-decoration:none}
 .hero2Logo{width:min(400px,80%,calc(100vh - 295px))}
 .hero2Main{align-self:start}
 @media(min-width:1501px){.hero2Main{padding-left:110px}}
+.legal{max-width:46em}
+.legal h2{font-size:22px;margin:1.6em 0 .5em}
+.legal h2:first-child{margin-top:0}
+.legal ul{margin:0 0 1em;padding-left:1.4em}
+.legal li{margin:.2em 0}
+.legalDate{color:var(--muted);font-size:14px;margin-top:2em}
