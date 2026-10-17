@@ -204,3 +204,17 @@ footer a{text-decoration:none}
 .hero2Logo{width:min(400px,80%,calc(100vh - 295px))}
 .hero2Main{align-self:start}
 @media(min-width:1501px){.hero2Main{padding-left:110px}}
+.svcPage{padding:56px 0 48px}
+.feeGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.feeCard{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px 28px}
+.feeCard h3{font-size:21px;letter-spacing:.06em;margin:0 0 4px}
+.feeNote{color:var(--muted);font-size:14px;margin:0}
+.feeRow{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.feeItem{display:flex;flex-direction:column;gap:2px}
+.feeItem .dur{font-size:18px;font-weight:500}
+.fee{font-family:"Montserrat","Noto Sans TC",sans-serif;font-size:17px;color:var(--muted)}
+.fee.tbd{color:var(--taupe)}
+.feeNotes{margin:24px 0 0;padding-left:1.2em;color:var(--muted);font-size:14px}
+.feeCta{margin-top:28px}
+@media(max-width:700px){.feeGrid{grid-template-columns:1fr}}
+.svcMore{text-align:center;margin-top:26px}
