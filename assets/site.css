@@ -214,7 +214,8 @@ footer a{text-decoration:none}
 .feeItem .dur{font-size:18px;font-weight:500}
 .fee{font-family:"Montserrat","Noto Sans TC",sans-serif;font-size:17px;color:var(--muted)}
 .fee.tbd{color:var(--taupe)}
-.feeNotes{margin:24px 0 0;padding-left:1.2em;color:var(--muted);font-size:14px}
+.feeNotes{margin:28px 0 0;padding-left:1.2em;color:var(--muted);font-size:14px;line-height:1.9;max-width:52em}
+.feeNotes li+li{margin-top:6px}
 .feeCta{margin-top:28px}
 @media(max-width:700px){.feeGrid{grid-template-columns:1fr}}
 .svcMore{text-align:center;margin-top:26px}
