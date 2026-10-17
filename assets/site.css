@@ -229,3 +229,4 @@ footer a{text-decoration:none}
 .feeTh{background:var(--mist);font-size:14px;font-weight:700;letter-spacing:.08em}
 .feeTr a{text-decoration-color:var(--sage);text-underline-offset:4px}
 .feeTr span:last-child{font-family:"Montserrat","Noto Sans TC",sans-serif}
+footer .license{display:block;margin-top:6px;font-size:13px;opacity:.85}
