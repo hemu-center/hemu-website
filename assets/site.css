@@ -222,3 +222,10 @@ footer a{text-decoration:none}
 .feeLine{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 20px;margin:0 0 8px;max-width:30em}
 .feeLine b{font-family:"Montserrat","Noto Sans TC",sans-serif;font-size:18px}
 .feeMore{font-size:14px;color:var(--muted)}
+.feeSub{font-size:21px;letter-spacing:.06em;margin:40px 0 14px}
+.feeTable{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;max-width:40em}
+.feeTr{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:14px 24px;border-top:1px solid var(--line)}
+.feeTr:first-child{border-top:0}
+.feeTh{background:var(--mist);font-size:14px;font-weight:700;letter-spacing:.08em}
+.feeTr a{text-decoration-color:var(--sage);text-underline-offset:4px}
+.feeTr span:last-child{font-family:"Montserrat","Noto Sans TC",sans-serif}
