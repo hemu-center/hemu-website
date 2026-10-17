@@ -219,3 +219,6 @@ footer a{text-decoration:none}
 .feeCta{margin-top:28px}
 @media(max-width:700px){.feeGrid{grid-template-columns:1fr}}
 .svcMore{text-align:center;margin-top:26px}
+.feeLine{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 20px;margin:0 0 8px;max-width:30em}
+.feeLine b{font-family:"Montserrat","Noto Sans TC",sans-serif;font-size:18px}
+.feeMore{font-size:14px;color:var(--muted)}
