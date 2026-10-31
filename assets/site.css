@@ -184,7 +184,7 @@ footer a{text-decoration:none}
 .newsList{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
 .newsItem{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px 26px}
 .newsMeta{display:flex;align-items:center;gap:12px;margin:0 0 8px;font-size:14px;color:var(--muted)}
-.newsMeta time{font-family:"Cormorant Garamond","Montserrat",serif;letter-spacing:.1em;font-size:15px}
+.newsMeta time{font-family:"Montserrat",sans-serif;font-weight:400;letter-spacing:.08em;font-size:14px}
 .newsTag{background:var(--mist);border-radius:999px;padding:1px 12px;font-size:13px}
 .newsItem h3{font-size:19px;margin:0 0 8px}
 .newsItem p{color:var(--muted);font-size:15px;margin:0 0 10px}
