@@ -236,3 +236,6 @@ footer a{text-decoration:none}
 .feeTr a{text-decoration-color:var(--sage);text-underline-offset:4px}
 .feeTr span:last-child{font-family:"Montserrat","Noto Sans TC",sans-serif}
 footer .license{display:block;margin-top:6px;font-size:13px;opacity:.85}
+.steps .bring{margin:6px 0 8px;padding-left:1.3em;color:var(--muted);display:grid;gap:2px}
+.steps .bring li{display:list-item;list-style:disc;counter-increment:none}
+.steps .bring li:before{content:none}
