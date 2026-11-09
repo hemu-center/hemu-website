@@ -258,3 +258,5 @@ footer .license{display:block;margin-top:6px;font-size:13px;opacity:.85}
 .feeJump a:hover{border-color:var(--sage)}
 .feePanel .feeGroup{margin-top:32px}
 .teacherBlock{margin-top:56px;padding-top:40px;border-top:1px solid var(--line);scroll-margin-top:100px}
+.steps.teacherSteps{max-width:880px}
+@media(min-width:700px){.nw{white-space:nowrap}}
