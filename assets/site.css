@@ -239,3 +239,18 @@ footer .license{display:block;margin-top:6px;font-size:13px;opacity:.85}
 .steps .bring{margin:6px 0 8px;padding-left:1.3em;color:var(--muted);display:grid;gap:2px}
 .steps .bring li{display:list-item;list-style:disc;counter-increment:none}
 .steps .bring li:before{content:none}
+.feeJump{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 8px}
+.feeJump a{display:flex;flex-direction:column;gap:2px;background:var(--sage);color:var(--olive);text-decoration:none;border-radius:16px;padding:16px 22px}
+.feeJump a+a{background:var(--sand)}
+.feeJump b{font-family:"Noto Serif TC",serif;font-size:20px;letter-spacing:.08em}
+.feeJump b:after{content:" ↓";font-family:"Montserrat",sans-serif;font-weight:400}
+.feeJump span{font-size:14px;color:var(--muted)}
+.feeGroup{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:44px 0 16px;padding-left:14px;border-left:5px solid var(--sage);scroll-margin-top:100px}
+#programs.feeGroup{border-left-color:var(--apricot)}
+.feeGroup h3{font-size:24px;letter-spacing:.08em;margin:0}
+.feeBadge{background:#fff;border:1px solid var(--line);border-radius:999px;padding:2px 14px;font-size:14px;color:var(--muted)}
+.feeHint{margin:16px 0 0;color:var(--muted);font-size:14px;line-height:1.9;max-width:52em}
+.feeCard.program{background:#FCFAF6;border-color:var(--apricot)}
+.programFoot{margin-top:14px}
+.feeCard.program .newsMore{display:inline-block;margin-top:10px}
+@media(max-width:700px){.feeJump{grid-template-columns:1fr}}
