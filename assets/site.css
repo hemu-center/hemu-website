@@ -241,9 +241,7 @@ footer .license{display:block;margin-top:6px;font-size:13px;opacity:.85}
 .steps .bring li:before{content:none}
 .feeJump{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 8px}
 .feeJump a{display:flex;flex-direction:column;gap:2px;background:var(--sage);color:var(--olive);text-decoration:none;border-radius:16px;padding:16px 22px}
-.feeJump a+a{background:var(--sand)}
 .feeJump b{font-family:"Noto Serif TC",serif;font-size:20px;letter-spacing:.08em}
-.feeJump b:after{content:" ↓";font-family:"Montserrat",sans-serif;font-weight:400}
 .feeJump span{font-size:14px;color:var(--muted)}
 .feeGroup{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:44px 0 16px;padding-left:14px;border-left:5px solid var(--sage);scroll-margin-top:100px}
 #programs.feeGroup{border-left-color:var(--apricot)}
@@ -254,3 +252,8 @@ footer .license{display:block;margin-top:6px;font-size:13px;opacity:.85}
 .programFoot{margin-top:14px}
 .feeCard.program .newsMore{display:inline-block;margin-top:10px}
 @media(max-width:700px){.feeJump{grid-template-columns:1fr}}
+.feeJump a{background:#fff;border:2px solid var(--line);transition:background .2s,border-color .2s}
+.feeJump a[aria-selected=true]{background:var(--sage);border-color:var(--sage)}
+.feeJump a[aria-selected=true] span{color:var(--olive)}
+.feeJump a:hover{border-color:var(--sage)}
+.feePanel .feeGroup{margin-top:32px}
