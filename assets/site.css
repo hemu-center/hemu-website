@@ -217,6 +217,12 @@ footer a{text-decoration:none}
 .feeNotes{margin:28px 0 0;padding-left:1.2em;color:var(--muted);font-size:14px;line-height:1.9;max-width:52em}
 .feeNotes li+li{margin-top:6px}
 .feeCta{margin-top:28px}
+.feeCard.wide{grid-column:1/-1}
+.programText{margin:10px 0 0;line-height:1.85}
+.programSub{font-size:22px;letter-spacing:.06em;margin:48px 0 18px}
+.programNote{margin:24px 0 0;color:var(--muted);font-size:14px;line-height:1.9}
+.programCta{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+
 @media(max-width:700px){.feeGrid{grid-template-columns:1fr}}
 .svcMore{text-align:center;margin-top:26px}
 .feeLine{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 20px;margin:0 0 8px;max-width:30em}
