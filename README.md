@@ -5,6 +5,7 @@
 | `index.html` | 首頁 |
 | `about.html` | 關於禾沐 |
 | `team.html` | 心理師團隊介紹 |
+| `teacher.html` | 教師及教保服務人員心理諮商補助說明（從「服務與收費」的方案補助連過來） |
 | `assets/site.css` | 所有頁面共用的樣式（顏色、字體依品牌規範） |
 | `assets/` | logo、網站小圖示 |
 | `assets/team/` | 心理師照片 |
