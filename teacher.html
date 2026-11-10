@@ -53,12 +53,23 @@
       <li><div><b>第二次起</b><span class="muted">每次請攜帶：</span><ul class="bring"><li>身分證</li><li>工作證明</li><li>使用確認單</li></ul><span class="muted">諮商結束後，我們會在確認單上簽章並註明日期；忘了帶確認單也可以照常諮商，下次再補登。</span></div></li>
     </ol>
     <p class="programNote">教育局只用補助識別碼管理使用次數，不會蒐集諮商原因或諮商內容；諮商內容依《心理師法》保密。補助金額、次數與適用資格依教育局規定辦理，部分情形不適用本補助（例如經學校調查屬實的校園性平或霸凌事件行為人）。</p>
-    <div class="programCta"><a class="btn" href="https://forms.gle/jrzVBk8HazV8T82t5" target="_blank" rel="noopener">線上預約</a><a class="btn soft" href="https://lin.ee/TF8IHHI" target="_blank" rel="noopener">LINE 詢問</a><a class="btn soft" href="/services#programs">← 回服務與收費</a></div>
+    <div class="programCta"><a class="btn" href="https://forms.gle/jrzVBk8HazV8T82t5" target="_blank" rel="noopener">線上預約</a><a class="btn soft" href="https://lin.ee/TF8IHHI" target="_blank" rel="noopener">LINE 詢問</a><a class="btn soft" href="/services#programs" id="backBtn">← 回服務與收費</a></div>
   </div>
 </section>
 
 <footer>
   <div class="wrap">© 2026 禾沐心理諮商所 HEMU Counseling Center ｜ 高雄市三民區明仁路58號 ｜ <a href="tel:+88673453178">07-3453178</a> ｜ hemucenter@gmail.com<span class="license">開業執照字號：高市衛心諮三字第XY07320177號</span></div>
 </footer>
+<script>
+(function(){
+  // 從網站其他頁面點進來時，按鈕回到原本那一頁；直接打開這頁時，回服務與收費。
+  var btn=document.getElementById('backBtn'), ref=document.referrer;
+  var fromSite=false;
+  try{fromSite=ref&&new URL(ref).origin===location.origin&&new URL(ref).pathname!==location.pathname;}catch(e){}
+  if(!btn||!fromSite||history.length<2)return;
+  btn.textContent='← 回上一頁';
+  btn.addEventListener('click',function(e){e.preventDefault();history.back();});
+})();
+</script>
 </body>
 </html>
