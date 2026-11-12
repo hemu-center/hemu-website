@@ -260,3 +260,7 @@ footer .license{display:block;margin-top:6px;font-size:13px;opacity:.85}
 .teacherBlock{margin-top:56px;padding-top:40px;border-top:1px solid var(--line);scroll-margin-top:100px}
 .steps.teacherSteps{max-width:880px}
 @media(min-width:700px){.nw{white-space:nowrap}}
+.feeCard.wide .feeRow{grid-template-columns:1fr}
+.lectureText{margin:12px 0 0;line-height:1.85}
+.lectureContact{margin:18px 0 0;padding-top:14px;border-top:1px solid var(--line);line-height:1.85}
+.lectureContact a{color:var(--ink,#3F4D3F);font-weight:500;text-decoration:underline;text-underline-offset:3px}
