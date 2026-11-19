@@ -146,7 +146,7 @@ footer a{text-decoration:none}
 .hero2Logo{width:min(400px,80%);height:auto}
 .hero2Lead{font-family:"Noto Serif TC","Songti TC",serif;letter-spacing:.14em;line-height:2.1;color:var(--muted);font-size:15px;margin:14px 0 30px}
 .hero2Acts{display:flex;justify-content:center;gap:18px;flex-wrap:wrap}
-.pill{display:inline-flex;align-items:center;gap:12px;min-width:190px;justify-content:center;padding:13px 30px;border-radius:999px;background:#7E8F74;color:#fff;border:1.5px solid #7E8F74;text-decoration:none;font-family:"Noto Serif TC",serif;letter-spacing:.2em;font-size:15px}
+.pill{display:inline-flex;align-items:center;gap:12px;min-width:190px;justify-content:center;padding:13px 30px;border-radius:999px;background:#63745A;color:#fff;border:1.5px solid #63745A;text-decoration:none;font-family:"Noto Serif TC",serif;letter-spacing:.2em;font-size:15px}
 .pill.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}
 .pill:hover{opacity:.88}
 .hero2Photo{position:relative;align-self:stretch;min-height:520px}
@@ -235,7 +235,7 @@ footer a{text-decoration:none}
 .feeTh{background:var(--mist);font-size:14px;font-weight:700;letter-spacing:.08em}
 .feeTr a{text-decoration-color:var(--sage);text-underline-offset:4px}
 .feeTr span:last-child{font-family:"Montserrat","Noto Sans TC",sans-serif}
-footer .license{display:block;margin-top:6px;font-size:13px;opacity:.85}
+footer .license{display:block;margin-top:6px;font-size:13px}
 .steps .bring{margin:6px 0 8px;padding-left:1.3em;color:var(--muted);display:grid;gap:2px}
 .steps .bring li{display:list-item;list-style:disc;counter-increment:none}
 .steps .bring li:before{content:none}
@@ -264,3 +264,8 @@ footer .license{display:block;margin-top:6px;font-size:13px;opacity:.85}
 .lectureText{margin:12px 0 0;line-height:1.85}
 .lectureContact{margin:18px 0 0;padding-top:14px;border-top:1px solid var(--line);line-height:1.85}
 .lectureContact a{color:var(--ink,#3F4D3F);font-weight:500;text-decoration:underline;text-underline-offset:3px}
+
+/* 無障礙：鍵盤或報讀軟體使用者可以跳過選單，直接到主要內容 */
+.skip{position:absolute;left:12px;top:-60px;z-index:1000;padding:10px 16px;border-radius:8px;background:var(--olive);color:#fff;text-decoration:none;font-weight:700}
+.skip:focus{top:12px}
+main:focus{outline:none}
