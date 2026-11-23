@@ -275,3 +275,4 @@ main:focus{outline:none}
 .quotaMain{margin:0;font-size:18px;color:var(--olive)}
 .quotaMain b{font-family:"Montserrat",sans-serif;font-size:24px;margin:0 2px}
 .quotaNote{margin:6px 0 0;font-size:14px;color:var(--muted)}
+.quotaFull{font-family:inherit;font-size:20px;margin:0 4px;color:#9A4A3A}
